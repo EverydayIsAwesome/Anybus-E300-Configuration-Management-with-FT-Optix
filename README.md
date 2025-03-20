@@ -1,6 +1,6 @@
 Step-by-Step Guide: Managing E300 Configuration via FT Optix & Anybus E300 Modbus TCP
 
-Here is the how-to video: 
+Here is the how-to video: https://youtu.be/Xw5f-RCL9Nk
 
 Pre-requisites:
 FT Optix Software Installed
