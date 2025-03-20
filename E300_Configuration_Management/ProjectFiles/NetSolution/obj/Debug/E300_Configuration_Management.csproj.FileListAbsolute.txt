@@ -1,0 +1,12 @@
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\bin\E300_Configuration_Management.deps.json
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\bin\E300_Configuration_Management.dll
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\bin\E300_Configuration_Management.pdb
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\E300_Configuration_Management.csproj.AssemblyReference.cache
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\E300_Configuration_Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\E300_Configuration_Management.AssemblyInfoInputs.cache
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\E300_Configuration_Management.AssemblyInfo.cs
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\E300_Configuration_Management.csproj.CoreCompileInputs.cache
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\E300_Configuration_Management.dll
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\refint\E300_Configuration_Management.dll
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\E300_Configuration_Management.pdb
+C:\Users\tohu\Documents\Rockwell Automation\FactoryTalk Optix\Projects\E300_Configuration_Management\ProjectFiles\NetSolution\obj\Debug\ref\E300_Configuration_Management.dll

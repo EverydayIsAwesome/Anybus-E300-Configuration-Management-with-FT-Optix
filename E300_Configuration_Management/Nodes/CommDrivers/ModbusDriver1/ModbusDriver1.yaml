@@ -1,0 +1,29 @@
+Name: ModbusDriver1
+Id: g=8d313a7e211411614123b93f4b986c2c
+Type: ModbusDriver
+Children:
+- Name: Protocol
+  Type: BaseDataVariableType
+  DataType: ModbusProtocol
+- Name: SerialPort
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "COM1"
+- Name: Baudrate
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 9600
+- Name: DataSize
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 8
+- Name: Parity
+  Type: BaseDataVariableType
+  DataType: Parity
+- Name: StopBits
+  Type: BaseDataVariableType
+  DataType: StopBits
+- Name: FlowControl
+  Type: BaseDataVariableType
+  DataType: FlowControl
+- File: Anybus_E300/Anybus_E300.yaml

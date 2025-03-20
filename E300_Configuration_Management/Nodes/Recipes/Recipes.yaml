@@ -1,0 +1,2761 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: E300 Configuration
+  Id: g=b7402106c387df572bfb1f61b40c1c52
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: NetworkTripReset
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutputPt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutputPt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutputPt02
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod1Pt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod1Pt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod2Pt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod2Pt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod3Pt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod3Pt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod4Pt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod4Pt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: TripReset
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OLPTCResetMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: SingleOrThreePh
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: EmergencyStartEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: GFFilter
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: GFMaxInhibit
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: 'CommOverride '
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetworkOverride
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod1Ch0RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod1Ch1RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod1Ch2RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod2Ch0RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod2Ch1RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod2Ch2RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod3Ch0RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod3Ch1RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod3Ch2RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod4Ch0RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod4Ch1RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod4Ch2RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtFnlFltVa
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Clearcommand
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CurrentTrip
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VoltageTrip
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ControlTrip
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CurrentWarning
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VoltageWarning
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ControlWarning
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OperatingMode
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt00assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt01assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt02assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt03assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt04assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt05assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutputPt00assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutputPt01assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutputPt02assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultWarningDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultFilter
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultMaxInhibit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CurrentTransformerPrimary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CurrentTransformerSecondary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink0
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink3
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink4
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink5
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink6
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink7
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PotentialTransformerPrimary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PotentialTransformerSecondary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UndervoltageInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UndervoltageTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UndervoltageTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UndervoltageWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OvervoltageInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OvervoltageTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OvervoltageTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OvervoltageWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskI
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskV
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskP
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskC
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskA
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskI
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskV
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskP
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskC
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskA
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ConfigPreset
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ClearCommand0
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: FLASetting
+      Type: BaseDataVariableType
+      DataType: UInt32
+    - Name: TripClass
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OLResetLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OLWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: FLA2Setting
+      Type: BaseDataVariableType
+      DataType: UInt32
+    - Name: TripEnableI
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripEnableV
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripEnableP
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripEnableC
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripEnableA
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableI
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableV
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableP
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableC
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableA
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: SetOperatingMode
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt00Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt01Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt02Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt03Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt04Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt05Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt00Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt01Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt02Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: StartsPerHour
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: StartsInterval
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PMTotalStarts
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PMOperatingHours
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ActFLA2wOutput
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: SecurityPolicy
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Language
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: FeedbackTimeout
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TransitionDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InterlockDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ControlModuleTyp
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: SensingModuleTyp
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CommsModuleType
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OperStationType
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DigitalMod1Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DigitalMod2Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DigitalMod3Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DigitalMod4Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: AnalogMod1Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: AnalogMod2Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: AnalogMod3Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: AnalogMod4Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: MismatchAction
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PLInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PLTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultType
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFWarningDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: StallEnabledTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: StallTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: JamInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: JamTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: JamTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: JamWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ULInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ULTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ULTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ULWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CIInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CITripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CITripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CIWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CTPrimary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CTSecondary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UCInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1UCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1UCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1UCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2UCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2UCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2UCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3UCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3UCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3UCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OCInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1OCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1OCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1OCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2OCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2OCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2OCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3OCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3OCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3OCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: LineLossInhTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1LossTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2LossTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3LossTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutputAssembly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputAssembly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink00
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink01
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink02
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink03
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink04
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink05
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink06
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink07
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PtDevOutCOSMask
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VoltageMode
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PTPrimary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PTSecondary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PHRotInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PhaseRotTripType
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VIBInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VIBTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VIBTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VIBWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UFInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UFTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UFTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UFWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OFInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OFTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OFTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OFWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PowerScale
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UWInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UWTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UWTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UWWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OWInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OWTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OWTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OWWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARCInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARCWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARCInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARCWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARGInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARGTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARGTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARGWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARGInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARGTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARGTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARGWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVAInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVATripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVA_TripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVAWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVAInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVATripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVATripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVAWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLagInhibTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLagTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLagTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLagWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLagInhibTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLagTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLagTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLagWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLeadInhibTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLeadTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLeadTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLeadWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLeadInhibTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLeadTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLeadTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OpfLeadWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DemandPeriod
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: NumberOfPeriods
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen1Param1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen1Param2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen2Param1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen2Param2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen3Param1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen3Param2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen4Param1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen4Param2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DisplayTimeout
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod1Ch00Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1Ch0Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod1Ch01Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1Ch1Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod1Ch02Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1Ch2Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod1Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod1Select
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod1EfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod1PfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod2Ch00Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2ChOFormat
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod2Ch01Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2Ch1Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod2Ch02Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2Ch2Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod2Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod2Select
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod2EfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod2PfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod3Ch00Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3Ch0Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod3Ch01Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3Ch1Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod3Ch02Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3Ch2Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod3Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod3Select
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod3EfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod3PfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod4C100Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4Ch0Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod4Ch01Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4Ch1Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4Ch2Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod4Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod4Select
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod4EfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod4PfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: FnlFltValStDur
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt00FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt01FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt02FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutDig1FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutDig2FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutDig3FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutDig4FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VoltageScale
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Instance144Int0
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Instance144Int1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DLXPtDeviceIn
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DLXAnDeviceIn
+      Type: BaseDataVariableType
+      DataType: Int16
+  - Class: Reference
+    Target: ns=15;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/E300_Configuration_Management/CommDrivers/ModbusDriver1/Anybus E300/Tags"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/E300_Configuration_Management/DataStores/EmbeddedDatabaseRecipe"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: EditModel
+    Id: g=ad93f2bc40a9dd36fc7a386ad104c4b3
+    Type: BaseObjectType
+    Children:
+    - Name: NetworkTripReset
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutputPt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutputPt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutputPt02
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod1Pt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod1Pt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod2Pt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod2Pt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod3Pt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod3Pt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod4Pt00
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDigMod4Pt01
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: TripReset
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OLPTCResetMode
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: SingleOrThreePh
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: EmergencyStartEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: GFFilter
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: GFMaxInhibit
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt00ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt01ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutPt02ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig1ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig2ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig3ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4PrFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4PrFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4ComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4ComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4ComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: OutDig4ComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: 'CommOverride '
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetworkOverride
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod1Ch0RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod1Ch1RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod1Ch2RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod2Ch0RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod2Ch1RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod2Ch2RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod3Ch0RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod3Ch1RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod3Ch2RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod4Ch0RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod4Ch1RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: InAnMod4Ch2RTDEn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtComFltAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtComFltVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtComIdlAct
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtComIdlVal
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: NetStrtFnlFltVa
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Clearcommand
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CurrentTrip
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VoltageTrip
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ControlTrip
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CurrentWarning
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VoltageWarning
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ControlWarning
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OperatingMode
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt00assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt01assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt02assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt03assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt04assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputPt05assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutputPt00assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutputPt01assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutputPt02assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultWarningDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultFilter
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultMaxInhibit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CurrentTransformerPrimary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CurrentTransformerSecondary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink0
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink3
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink4
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink5
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink6
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DataLink7
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PotentialTransformerPrimary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PotentialTransformerSecondary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UndervoltageInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UndervoltageTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UndervoltageTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UndervoltageWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OvervoltageInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OvervoltageTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OvervoltageTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OvervoltageWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskI
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskV
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskP
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskC
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripHistoryMaskA
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskI
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskV
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskP
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskC
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnHistoryMaskA
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ConfigPreset
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ClearCommand0
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: FLASetting
+      Type: BaseDataVariableType
+      DataType: UInt32
+    - Name: TripClass
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OLResetLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OLWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: FLA2Setting
+      Type: BaseDataVariableType
+      DataType: UInt32
+    - Name: TripEnableI
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripEnableV
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripEnableP
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripEnableC
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TripEnableA
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableI
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableV
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableP
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableC
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: WarnEnableA
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: SetOperatingMode
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt00Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt01Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt02Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt03Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt04Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InPt05Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt00Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt01Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt02Assignment
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: StartsPerHour
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: StartsInterval
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PMTotalStarts
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PMOperatingHours
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ActFLA2wOutput
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: SecurityPolicy
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Language
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: FeedbackTimeout
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: TransitionDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InterlockDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ControlModuleTyp
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: SensingModuleTyp
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CommsModuleType
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OperStationType
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DigitalMod1Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DigitalMod2Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DigitalMod3Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DigitalMod4Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: AnalogMod1Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: AnalogMod2Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: AnalogMod3Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: AnalogMod4Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: MismatchAction
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PLInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PLTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GroundFaultType
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFWarningDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: GFWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: StallEnabledTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: StallTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: JamInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: JamTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: JamTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: JamWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ULInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ULTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ULTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: ULWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CIInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CITripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CITripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CIWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CTPrimary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: CTSecondary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UCInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1UCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1UCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1UCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2UCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2UCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2UCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3UCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3UCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3UCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OCInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1OCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1OCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1OCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2OCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2OCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2OCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3OCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3OCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3OCWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: LineLossInhTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L1LossTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L2LossTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: L3LossTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutputAssembly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InputAssembly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink00
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink01
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink02
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink03
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink04
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink05
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink06
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Datalink07
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PtDevOutCOSMask
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VoltageMode
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PTPrimary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PTSecondary
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PHRotInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PhaseRotTripType
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VIBInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VIBTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VIBTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VIBWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UFInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UFTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UFTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UFWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OFInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OFTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OFTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OFWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: PowerScale
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UWInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UWTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UWTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UWWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OWInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OWTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OWTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OWWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARCInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARCWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARCInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARCTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARCTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARCWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARGInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARGTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARGTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVARGWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARGInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARGTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARGTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVARGWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVAInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVATripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVA_TripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UVAWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVAInhibitTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVATripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVATripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OVAWarningLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLagInhibTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLagTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLagTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLagWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLagInhibTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLagTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLagTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLagWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLeadInhibTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLeadTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLeadTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: UPFLeadWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLeadInhibTime
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLeadTripDelay
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OPFLeadTripLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OpfLeadWarnLevel
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DemandPeriod
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: NumberOfPeriods
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen1Param1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen1Param2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen2Param1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen2Param2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen3Param1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen3Param2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen4Param1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Screen4Param2
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DisplayTimeout
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod1Ch00Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1Ch0Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C0WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod1Ch01Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1Ch1Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C1WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod1Ch02Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1Ch2Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod1C2WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod1Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod1Select
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod1EfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod1PfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod2Ch00Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2ChOFormat
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C0WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod2Ch01Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2Ch1Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C1WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod2Ch02Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2Ch2Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod2C2WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod2Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod2Select
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod2EfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod2PfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod3Ch00Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3Ch0Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C0WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod3Ch01Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3Ch1Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C1WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod3Ch02Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3Ch2Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod3C2WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod3Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod3Select
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod3EfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod3PfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod4C100Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4Ch0Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C0WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAnMod4Ch01Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4Ch1Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C1WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4Ch2Format
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2TmpUnit
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2FiltFrq
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2OpCktSt
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2TripDly
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2TripLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: InAMod4C2WarnLvl
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod4Type
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod4Select
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod4EfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutAnMod4PfltAct
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: FnlFltValStDur
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt00FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt01FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutPt02FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutDig1FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutDig2FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutDig3FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: OutDig4FnlFltVal
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: VoltageScale
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Instance144Int0
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Instance144Int1
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DLXPtDeviceIn
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: DLXAnDeviceIn
+      Type: BaseDataVariableType
+      DataType: Int16

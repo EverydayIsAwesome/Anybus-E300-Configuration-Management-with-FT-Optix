@@ -1,0 +1,1436 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: EmbeddedDatabaseRecipe
+  Id: g=f9156fa7fc4be7d017d5c17ed106bf6d
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: E300 Configuration
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=9;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=9;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /NetworkTripReset
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutputPt00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutputPt01
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutputPt02
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDigMod1Pt00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDigMod1Pt01
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDigMod2Pt00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDigMod2Pt01
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDigMod3Pt00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDigMod3Pt01
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDigMod4Pt00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDigMod4Pt01
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /TripReset
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OLPTCResetMode
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /SingleOrThreePh
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /EmergencyStartEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /GFFilter
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /GFMaxInhibit
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt00PrFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt00PrFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt00ComFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt00ComFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt00ComIdlAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt00ComIdlVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt01PrFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt01PrFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt01ComFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt01ComFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt01ComIdlAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt01ComIdlVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt02PrFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt02PrFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt02ComFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt02ComFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt02ComIdlAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutPt02ComIdlVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig1PrFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig1PrFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig1ComFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig1ComFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig1ComIdlAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig1ComIdlVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig2PrFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig2PrFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig2ComFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig2ComFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig2ComIdlAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig2ComIdlVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig3PrFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig3PrFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig3ComFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig3ComFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig3ComIdlAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig3ComIdlVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig4PrFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig4PrFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig4ComFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig4ComFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig4ComIdlAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /OutDig4ComIdlVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: '/CommOverride '
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /NetworkOverride
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod1Ch0RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod1Ch1RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod1Ch2RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod2Ch0RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod2Ch1RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod2Ch2RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod3Ch0RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod3Ch1RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod3Ch2RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod4Ch0RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod4Ch1RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /InAnMod4Ch2RTDEn
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /NetStrtComFltAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /NetStrtComFltVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /NetStrtComIdlAct
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /NetStrtComIdlVal
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /NetStrtFnlFltVa
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Clearcommand
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CurrentTrip
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /VoltageTrip
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ControlTrip
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CurrentWarning
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /VoltageWarning
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ControlWarning
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OperatingMode
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InputPt00assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InputPt01assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InputPt02assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InputPt03assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InputPt04assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InputPt05assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutputPt00assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutputPt01assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutputPt02assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GroundFaultInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GroundFaultTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GroundFaultTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GroundFaultWarningDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GroundFaultWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GroundFaultFilter
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GroundFaultMaxInhibit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CurrentTransformerPrimary
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CurrentTransformerSecondary
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DataLink0
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DataLink1
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DataLink2
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DataLink3
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DataLink4
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DataLink5
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DataLink6
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DataLink7
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PotentialTransformerPrimary
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PotentialTransformerSecondary
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UndervoltageInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UndervoltageTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UndervoltageTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UndervoltageWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OvervoltageInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OvervoltageTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OvervoltageTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OvervoltageWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripHistoryMaskI
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripHistoryMaskV
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripHistoryMaskP
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripHistoryMaskC
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripHistoryMaskA
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnHistoryMaskI
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnHistoryMaskV
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnHistoryMaskP
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnHistoryMaskC
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnHistoryMaskA
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ConfigPreset
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ClearCommand0
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /FLASetting
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: /TripClass
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OLResetLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OLWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /FLA2Setting
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: /TripEnableI
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripEnableV
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripEnableP
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripEnableC
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TripEnableA
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnEnableI
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnEnableV
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnEnableP
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnEnableC
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /WarnEnableA
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /SetOperatingMode
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InPt00Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InPt01Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InPt02Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InPt03Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InPt04Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InPt05Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutPt00Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutPt01Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutPt02Assignment
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /StartsPerHour
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /StartsInterval
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PMTotalStarts
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PMOperatingHours
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ActFLA2wOutput
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /SecurityPolicy
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Language
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /FeedbackTimeout
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /TransitionDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InterlockDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ControlModuleTyp
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /SensingModuleTyp
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CommsModuleType
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OperStationType
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DigitalMod1Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DigitalMod2Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DigitalMod3Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DigitalMod4Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /AnalogMod1Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /AnalogMod2Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /AnalogMod3Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /AnalogMod4Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /MismatchAction
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PLInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PLTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GroundFaultType
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GFInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GFTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GFTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GFWarningDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /GFWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /StallEnabledTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /StallTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /JamInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /JamTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /JamTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /JamWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ULInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ULTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ULTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /ULWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CIInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CITripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CITripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CIWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CTPrimary
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /CTSecondary
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UCInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L1UCTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L1UCTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L1UCWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L2UCTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L2UCTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L2UCWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L3UCTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L3UCTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L3UCWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OCInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L1OCTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L1OCTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L1OCWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L2OCTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L2OCTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L2OCWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L3OCTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L3OCTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L3OCWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /LineLossInhTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L1LossTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L2LossTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /L3LossTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutputAssembly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InputAssembly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Datalink00
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Datalink01
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Datalink02
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Datalink03
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Datalink04
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Datalink05
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Datalink06
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Datalink07
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PtDevOutCOSMask
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /VoltageMode
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PTPrimary
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PTSecondary
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PHRotInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PhaseRotTripType
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /VIBInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /VIBTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /VIBTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /VIBWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UFInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UFTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UFTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UFWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OFInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OFTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OFTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OFWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /PowerScale
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UWInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UWTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UWTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UWWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OWInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OWTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OWTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OWWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVARCInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVARCTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVARCTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVARCWarnLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVARCInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVARCTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVARCTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVARCWarnLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVARGInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVARGTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVARGTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVARGWarnLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVARGInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVARGTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVARGTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVARGWarnLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVAInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVATripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVA_TripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UVAWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVAInhibitTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVATripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVATripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OVAWarningLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UPFLagInhibTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UPFLagTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UPFLagTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UPFLagWarnLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OPFLagInhibTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OPFLagTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OPFLagTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OPFLagWarnLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UPFLeadInhibTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UPFLeadTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UPFLeadTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /UPFLeadWarnLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OPFLeadInhibTime
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OPFLeadTripDelay
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OPFLeadTripLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OpfLeadWarnLevel
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DemandPeriod
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /NumberOfPeriods
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Screen1Param1
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Screen1Param2
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Screen2Param1
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Screen2Param2
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Screen3Param1
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Screen3Param2
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Screen4Param1
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Screen4Param2
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DisplayTimeout
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod1Ch00Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1Ch0Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C0TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C0FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C0OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C0TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C0TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C0WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod1Ch01Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1Ch1Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C1TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C1FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C1OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C1TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C1TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C1WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod1Ch02Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1Ch2Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C2TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C2FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C2OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C2TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C2TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod1C2WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod1Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod1Select
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod1EfltAct
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod1PfltAct
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod2Ch00Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2ChOFormat
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C0TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C0FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C0OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C0TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C0TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C0WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod2Ch01Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2Ch1Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C1TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C1FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C1OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C1TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C1TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C1WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod2Ch02Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2Ch2Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C2TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C2FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C2OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C2TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C2TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod2C2WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod2Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod2Select
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod2EfltAct
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod2PfltAct
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod3Ch00Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3Ch0Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C0TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C0FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C0TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C0TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C0WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod3Ch01Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3Ch1Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C1TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C1FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C1OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C1TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C1TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C1WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod3Ch02Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3Ch2Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C2TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C2OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C2TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C2TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod3C2WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod3Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod3Select
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod3EfltAct
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod3PfltAct
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod4C100Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4Ch0Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C0TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C0FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C0OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C0TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C0TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C0WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAnMod4Ch01Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4Ch1Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C1TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C1FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C1OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C1TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C1TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C1WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4Ch2Format
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C2TmpUnit
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C2FiltFrq
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C2OpCktSt
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C2TripDly
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C2TripLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /InAMod4C2WarnLvl
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod4Type
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod4Select
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod4EfltAct
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutAnMod4PfltAct
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /FnlFltValStDur
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutPt00FnlFltVal
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutPt01FnlFltVal
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutPt02FnlFltVal
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutDig1FnlFltVal
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutDig2FnlFltVal
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutDig3FnlFltVal
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /OutDig4FnlFltVal
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /VoltageScale
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Instance144Int0
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Instance144Int1
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DLXPtDeviceIn
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /DLXAnDeviceIn
+          Type: StoreColumn
+          DataType: Int16
+  - Class: Reference
+    Target: ns=19;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=9;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=59
+    Direction: Forward

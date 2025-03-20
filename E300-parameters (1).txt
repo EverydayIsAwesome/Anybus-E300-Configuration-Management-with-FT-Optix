@@ -1,0 +1,677 @@
+Coils
+Modbus Register   Modbus Adress   Access Rights   Parameter name        Controls output
+1                 0x0000          RW              Network Trip Reset 		No
+2                 0x0001          RW              OutputPt00     		Yes
+3                 0x0002          RW              OutputPt01		    	Yes
+4                 0x0003          RW              OutputPt02		    	Yes
+5                 0x0004          RW              OutDigMod1Pt00		Yes
+6                 0x0005          RW              OutDigMod1Pt01		Yes
+7                 0x0006          RW              OutDigMod2Pt00		Yes
+8                 0x0007          RW              OutDigMod2Pt01		Yes
+9                 0x0008          RW              OutDigMod3Pt00		Yes
+10                0x0009          RW              OutDigMod3Pt01		Yes
+11                0x000A          RW              OutDigMod4Pt00		Yes
+12                0x000B          RW              OutDigMod4Pt01		Yes
+13                0x000C          RW              OutPt00PrFltAct		No
+14                0x000D          RW              OutPt00PrFltVal		No
+15                0x000E          RW              OutPt00ComFltAct		No
+16                0x000F          RW              OutPt00ComFltVal		No
+17                0x0010          RW              OutPt00ComIdlAct		No
+18                0x0011          RW              OutPt00ComIdlVal		No
+19                0x0012          RW              OutPt01PrFltAct		No
+20                0x0013          RW              OutPt01PrFltVal		No
+21                0x0014          RW              OutPt01ComFltAct		No
+22                0x0015          RW              OutPt01ComFltVal		No
+23                0x0016          RW              OutPt01ComIdlAct		No
+24                0x0017          RW              OutPt01ComIdlVal		No
+25                0x0018          RW              OutPt02PrFltAct		No
+26                0x0019          RW              OutPt02PrFltVal		No
+27                0x001A          RW              OutPt02ComFltAct		No
+28                0x001B          RW              OutPt02ComFltVal		No
+29                0x001C          RW              OutPt02ComIdlAct		No
+30                0x001D          RW              OutPt02ComIdlVal		No
+31                0x001E          RW              OutDig1PrFltAct		No
+32                0x001F          RW              OutDig1PrFltVal		No
+33                0x0020          RW              OutDig1ComFltAct		No
+34                0x0021          RW              OutDig1ComFltVal		No
+35                0x0022          RW              OutDig1ComIdlAct		No
+36                0x0023          RW              OutDig1ComIdlVal		No
+37                0x0024          RW              OutDig2PrFltAct		No
+38                0x0025          RW              OutDig2PrFltVal		No
+39                0x0026          RW              OutDig2ComFltAct		No
+40                0x0027          RW              OutDig2ComFltVal		No
+41                0x0028          RW              OutDig2ComIdlAct		No
+42                0x0029          RW              OutDig2ComIdlVal		No
+43                0x002A          RW              OutDig3PrFltAct		No
+44                0x002B          RW              OutDig3PrFltVal		No
+45                0x002C          RW              OutDig3ComFltAct		No
+46                0x002D          RW              OutDig3ComFltVal		No
+47                0x002E          RW              OutDig3ComIdlAct		No
+48                0x002F          RW              OutDig3ComIdlVal		No
+49                0x0030          RW              OutDig4PrFltAct		No
+50                0x0031          RW              OutDig4PrFltVal		No
+51                0x0032          RW              OutDig4ComFltAct		No
+52                0x0033          RW              OutDig4ComFltVal		No
+53                0x0034          RW              OutDig4ComIdlAct		No
+54                0x0035          RW              OutDig4ComIdlVal		No
+55                0x0036          RW              TripReset		        No
+56                0x0037          RW              OLPTCResetMode		No
+57                0x0038          RW              SingleOrThreePh		No
+58                0x0039          RW              EmergencyStartEn		No
+59                0x003A          RW              GFFilter		        No
+60                0x003B          RW              GFMaxInhibit		    	No
+61                0x003C          RW              OutPt00PrFltAct		No
+62                0x003D          RW              OutPt00PrFltVal		No
+63                0x003E          RW              OutPt00ComFltAct		No
+64                0x003F          RW              OutPt00ComFltVal		No
+65                0x0040          RW              OutPt00ComIdlAct		No
+66                0x0041          RW              OutPt00ComIdlVal		No
+67                0x0042          RW              OutPt01PrFltAct		No
+68                0x0043          RW              OutPt01PrFltVal		No
+69                0x0044          RW              OutPt01ComFltAct		No
+70                0x0045          RW              OutPt01ComFltVal		No
+71                0x0046          RW              OutPt01ComIdlAct		No
+72                0x0047          RW              OutPt01ComIdlVal		No
+73                0x0048          RW              OutPt02PrFltAct		No
+74                0x0049          RW              OutPt02PrFltVal		No
+75                0x004A          RW              OutPt02ComFltAct		No
+76                0x004B          RW              OutPt02ComFltVal		No
+77                0x004C          RW              OutPt02ComIdlAct		No
+78                0x004D          RW              OutPt02ComIdlVal		No
+79                0x004E          RW              OutDig1PrFltAct		No
+80                0x004F          RW              OutDig1PrFltVal		No
+81                0x0050          RW              OutDig1ComFltAct		No
+82                0x0051          RW              OutDig1ComFltVal		No
+83                0x0052          RW              OutDig1ComIdlAct		No
+84                0x0053          RW              OutDig1ComIdlVal		No
+85                0x0054          RW              OutDig2PrFltAct		No
+86                0x0055          RW              OutDig2PrFltVal		No
+87                0x0056          RW              OutDig2ComFltAct		No
+88                0x0057          RW              OutDig2ComFltVal		No
+89                0x0058          RW              OutDig2ComIdlAct		No
+90                0x0059          RW              OutDig2ComIdlVal		No
+91                0x005A          RW              OutDig3PrFltAct		No
+92                0x005B          RW              OutDig3PrFltVal		No
+93                0x005C          RW              OutDig3ComFltAct		No
+94                0x005D          RW              OutDig3ComFltVal		No
+95                0x005E          RW              OutDig3ComIdlAct		No
+96                0x005F          RW              OutDig3ComIdlVal		No
+97                0x0060          RW              OutDig4PrFltAct		No
+98                0x0061          RW              OutDig4PrFltVal		No
+99                0x0062          RW              OutDig4ComFltAct		No
+100                0x0063          RW              OutDig4ComFltVal		No
+101                0x0064          RW              OutDig4ComIdlAct		No
+102                0x0065          RW              OutDig4ComIdlVal		No
+103                0x0066          RW              CommOverride	    		No
+104                0x0067          RW              NetworkOverride		No
+105                0x0068          RW              InAnMod1Ch0RTDEn		No
+106                0x0069          RW              InAnMod1Ch1RTDEn		No
+107                0x006A          RW              InAnMod1Ch2RTDEn		No
+108                0x006B          RW              InAnMod2Ch0RTDEn		No
+109                0x006C          RW              InAnMod2Ch1RTDEn		No
+110                0x006D          RW              InAnMod2Ch2RTDEn		No
+111                0x006E          RW              InAnMod3Ch0RTDEn		No
+112                0x006F          RW              InAnMod3Ch1RTDEn		No
+113                0x0070          RW              InAnMod3Ch2RTDEn		No
+114                0x0071          RW              InAnMod4Ch0RTDEn		No
+115                0x0072          RW              InAnMod4Ch1RTDEn		No
+116                0x0073          RW              InAnMod4Ch2RTDEn		No
+117                0x0074          RW              NetStrtComFltAct		No
+118                0x0075          RW              NetStrtComFltVal		No
+119                0x0076          RW              NetStrtComIdlAct		No
+120                0x0077          RW              NetStrtComIdlVal		No
+121                0x0078          RW              NetStrtFnlFltVa		No
+
+Input Registers
+Modbus Register     Modbus address      Access Rights       Parameter name
+30001               0x0000              R                   %TCU
+30002               0x0001              R                   Time to Trip
+30003               0x0002              R                   Time to Reset
+30004               0x0003              R                   Current Trip Status
+30005               0x0004              R                   Voltage Trip Status
+30006               0x0005              R                   PTC Trip Input / Control Trip
+30007               0x0006              R                   Current Warning Status
+30008               0x0007              R                   Voltage Warning Status
+30009               0x0008              R                   Input Status 0
+30010               0x0009              R                   Input Status 1
+30011               0x000A              R                   Device Status 0
+30012               0x000B              R                   Device Status 1
+30013               0x000C              R                   Phase A current
+30015               0x000E              R                   Phase B current
+30017               0x0010              R                   Phase C current
+30019               0x0012              R                   Average % FLA
+30020               0x0013              R                   Ground Current
+30021               0x0014              R                   Phase A-B voltage
+30022               0x0015              R                   Phase B-C voltage
+30023               0x0016              R                   Phase C-A voltage
+30024               0x0017              R                   Frequency
+30025               0x0018              R                   Real Power (P)
+30027               0x001A              R                   Reactive Power (Q)
+30029               0x001C              R                   Apparent Power (S)
+30031               0x001E              R                   Last Fault Code
+30032               0x001F              R                   ThermUtilizedPct
+30033               0x0020              R                   OLTimeToTrip
+30034               0x0021              R                   OLTimeToReset
+30035               0x0022              R                   TripStsCurrent
+30036               0x0023              R                   TripStsVoltage
+30037               0x0024              R                   TripStsPower
+30038               0x0025              R                   TripStsControl
+30039               0x0026              R                   TripStsAnalog
+30040               0x0027              R                   WarnStsCurrent
+30041               0x0028              R                   WarnStsVoltage
+30042               0x0029              R                   WarnStsPower
+30043               0x002A              R                   WarnStsControl
+30044               0x002B              R                   WarnStsAnalog
+30045               0x002C              R                   InputStatus0
+30046               0x002D              R                   InputStatus1
+30047               0x002E              R                   OutputStatus
+30048               0x002F              R                   OpStationStatus
+30049               0x0030              R                   DeviceStatus0
+30050               0x0031              R                   DeviceStatus1
+30051               0x0032              R                   Firmware
+30052               0x0033              R                   ControlModuleID
+30053               0x0034              R                   SensingModuleID
+30054               0x0035              R                   OperStationID
+30055               0x0036              R                   DigitalModuleID
+30056               0x0037              R                   AnalogModuleID
+30057               0x0038              R                   OperatingTime
+30058               0x0039              R                   StartsCounter
+30059               0x003A              R                   StartsAvailable
+30060               0x003B              R                   TimeToStart
+30061               0x003C              R                   Year
+30062               0x003D              R                   Month
+30063               0x003E              R                   Day
+30064               0x003F              R                   Hour
+30065               0x0040              R                   Minute
+30066               0x0041              R                   Second
+30067               0x0042              R                   InvalidCfgParam
+30068               0x0043              R                   InvalidCfgCause
+30069               0x0044              R                   MismatchStatus
+30070               0x0045              R                   L1Current
+30072               0x0047              R                   L2Current
+30074               0x0049              R                   L3Current
+30076               0x004b              R                   AverageCurrent
+30078               0x004d              R                   L1PercentFLA
+30079               0x004e              R                   L2PercentFLA
+30080               0x004f              R                   L3PercentFLA
+30081               0x0050              R                   AvgPercentFLA
+30082               0x0051              R                   GFCurrent
+30083               0x0052              R                   CurrentImbalance
+30084               0x0053              R                   L1toL2Voltage
+30085               0x0054              R                   L2toL3Voltage
+30086               0x0055              R                   L3toL1Voltage
+30087               0x0056              R                   AvgVoltageLtoL
+30088               0x0057              R                   L1toNVoltage
+30089               0x0058              R                   L2toNVoltage
+30090               0x0059              R                   L3toNVoltage
+30091               0x005a              R                   AvgVoltageLtoN
+30092               0x005b              R                   VoltageImbalance
+30093               0x005c              R                   VoltageFrequency
+30094               0x005d              R                   VphaseRotation
+30095               0x005e              R                   L1RealPower
+30097               0x0060              R                   L2RealPower
+30099               0x0062              R                   L3RealPower
+30101               0x0064              R                   TotalRealPower
+30103               0x0066              R                   L1ReactivePower
+30105               0x0068              R                   L2ReactivePower
+30107               0x006a              R                   L3ReactivePower
+30109               0x006c              R                   TotalReactivePwr
+30111               0x006e              R                   L1ApparentPower
+30113               0x0070              R                   L2ApparentPower
+30115               0x0072              R                   L3ApparentPower
+30117               0x0074              R                   TotalApparentPwr
+30119               0x0076              R                   L1PowerFactor
+30120               0x0077              R                   L2PowerFactor
+30121               0x0078              R                   L3PowerFactor
+30122               0x0079              R                   TotalPowerFactor
+30123               0x007a              R                   kWhTimes10E9
+30124               0x007b              R                   kWhTimes10E6
+30125               0x007c              R                   kWhTimes10E3
+30126               0x007d              R                   kWhTimes10E0
+30127               0x007e              R                   kWhTimes10E-3
+30128               0x007f              R                   kVARhCon10E9
+30129               0x0080              R                   kVARhCon10E6
+30130               0x0081              R                   kVARhCon10E3
+30131               0x0082              R                   kVARhCon10E0
+30132               0x0083              R                   kVARhCon10E-3
+30133               0x0084              R                   kVARhGen10E9
+30134               0x0085              R                   kVARhGen10E6
+30135               0x0086              R                   kVARhGen10E3
+30136               0x0087              R                   kVARhGen10E0
+30137               0x0088              R                   kVARhGen10E-3
+30138               0x0089              R                   kVARhNet10E9
+30139               0x008a              R                   kVARhNet10E6
+30140               0x008b              R                   kVARhNet10E3
+30141               0x008c              R                   kVARhNet10E0
+30142               0x008d              R                   kVARhNet10E-3
+30143               0x008e              R                   kVAhTimes10E9
+30144               0x008f              R                   kVAhTimes10E6
+30145               0x0090              R                   kVAhTimes10E3
+30146               0x0091              R                   kVAhTimes10E0
+30147               0x0092              R                   kVAhTimes10E-3
+30148               0x0093              R                   kWDemand
+30150               0x0095              R                   MaxkWDemand
+30152               0x0097              R                   kVARDemand
+30154               0x0099              R                   MaxkVARDemand
+30156               0x009b              R                   kVADemand
+30158               0x009d              R                   MaxkVADemand
+30160               0x009f              R                   InAdMod1Ch00
+30161               0x00a0              R                   InAdMod1Ch01
+30162               0x00a1              R                   InAdMod1Ch02
+30163               0x00a2              R                   InAdMod2Ch00
+30164               0x00a3              R                   InAdMod2Ch01
+30165               0x00a4              R                   InAdMod2Ch02
+30166               0x00a5              R                   InAdMod3Ch00
+30167               0x00a6              R                   InAdMod3Ch01
+30168               0x00a7              R                   InAdMod3Ch02
+30169               0x00a8              R                   InAdMod4Ch00
+30170               0x00a9              R                   InAdMod4Ch01
+30171               0x00aa              R                   InAdMod4Ch02
+30172               0x00ab              R                   AnalogMod1Status
+30173               0x00ac              R                   AnalogMod2Status
+30174               0x00ad              R                   AnalogMod3Status
+30175               0x00ae              R                   AnalogMod4Status
+30176               0x00af              R                   TripHistory0
+30177               0x00b0              R                   TripHistory1
+30178               0x00b1              R                   TripHistory2
+30179               0x00b2              R                   TripHistory3
+30180               0x00b3              R                   TripHistory4
+30181               0x00b4              R                   WarningHistory0
+30182               0x00b5              R                   WarningHistory1
+30183               0x00b6              R                   WarningHistory2
+30184               0x00b7              R                   WarningHistory3
+30185               0x00b8              R                   WarningHistory4
+30186               0x00b9              R                   TSL1Current
+30188               0x00bb              R                   TSL2Current
+30190               0x00bd              R                   TSL3Current
+30192               0x00bf              R                   TSThermUtilized
+30193               0x00c0              R                   TSGFCurrent
+30194               0x00c1              R                   TSL1toL2Voltage
+30195               0x00c2              R                   TSL2toL3Voltage
+30196               0x00c3              R                   TSL3toL1Voltage
+30197               0x00c4              R                   TSTotalRealPwr
+30199               0x00c6              R                   TSTotalkVAR
+30201               0x00c8              R                   TSTotalkVA
+30203               0x00ca              R                   TSTotalPF
+30204               0x00cb              R                   PtDeviceOuts
+30205               0x00cc              R                   DLXUserDefDat
+
+Holding Registers
+Modbus Register     Modbus address      Access rights   Parameter name
+40001               0x0000              RW              Config Preset
+40002               0x0001              RW              Clear command
+40003               0x0002              RW              FLA Setting
+40005               0x0004              RW              Current Trip Enable
+40006               0x0005              RW              Voltage Trip Enable
+40007               0x0006              RW              Control Trip Enable
+40008               0x0007              RW              Current Warning Enable
+40009               0x0008              RW              Voltage Warning Enable
+40010               0x0009              RW              Control Warning Enable
+40011               0x000A              RW              Operating Mode
+40012               0x000B              RW              Input Pt00 assignment
+40013               0x000C              RW              Input Pt01 assignment
+40014               0x000D              RW              Input Pt02 assignment
+40015               0x000E              RW              Input Pt03 assignment
+40016               0x000F              RW              Input Pt04 assignment
+40017               0x0010              RW              Input Pt05 assignment
+40018               0x0011              RW              Output Pt00 assignment
+40019               0x0012              RW              Output Pt01 assignment
+40020               0x0013              RW              Output Pt02 assignment
+40021               0x0014              RW              Ground Fault Type
+40022               0x0015              RW              Ground Fault Inhibit Time
+40023               0x0016              RW              Ground Fault Trip Delay
+40024               0x0017              RW              Ground Fault Trip Level
+40025               0x0018              RW              Ground Fault Warning Delay
+40026               0x0019              RW              Ground Fault Warning Level
+40027               0x001A              RW              Ground Fault Filter
+40028               0x001B              RW              Ground Fault Max Inhibit
+40029               0x001C              RW              Jam Inhibit Time
+40030               0x001D              RW              Jam Trip Delay
+40031               0x001E              RW              Jam Trip Level
+40032               0x001F              RW              Jam Warning Level
+40033               0x0020              RW              Current Transformer Primary
+40034               0x0021              RW              Current Transformer Secondary
+40035               0x0022              RW              Data Link 0
+40036               0x0023              RW              Data Link 1
+40037               0x0024              RW              Data Link 2
+40038               0x0025              RW              Data Link 3
+40039               0x0026              RW              Data Link 4
+40040               0x0027              RW              Data Link 5
+40041               0x0028              RW              Data Link 6
+40042               0x0029              RW              Data Link 7
+40043               0x002A              RW              Potential Transformer Primary
+40044               0x002B              RW              Potential Transformer Secondary
+40045               0x002C              RW              Undervoltage Inhibit Time
+40046               0x002D              RW              Undervoltage Trip Delay
+40047               0x002E              RW              Undervoltage Trip Level
+40048               0x002F              RW              Undervoltage Warning Level
+40049               0x0030              RW              Overvoltage Inhibit Time
+40050               0x0031              RW              Overvoltage Trip Delay
+40051               0x0032              RW              Overvoltage Trip Level
+40052               0x0033              RW              Overvoltage Warning Level
+40053               0x0034              RW              TripHistoryMaskI
+40054               0x0035              RW              TripHistoryMaskV
+40055               0x0036              RW              TripHistoryMaskP
+40056               0x0037              RW              TripHistoryMaskC
+40057               0x0038              RW              TripHistoryMaskA
+40058               0x0039              RW              WarnHistoryMaskI
+40059               0x003A              RW              WarnHistoryMaskV
+40060               0x003B              RW              WarnHistoryMaskP
+40061               0x003C              RW              WarnHistoryMaskC
+40062               0x003D              RW              WarnHistoryMaskA
+40063               0x003E              RW              ConfigPreset
+40064               0x003F              RW              ClearCommand
+40065               0x0040              RW              FLASetting
+40067               0x0042              RW              TripClass
+40068               0x0043              RW              OLResetLevel
+40069               0x0044              RW              OLWarningLevel
+40070               0x0045              RW              FLA2Setting
+40072               0x0047              RW              TripEnableI
+40073               0x0048              RW              TripEnableV
+40074               0x0049              RW              TripEnableP
+40075               0x004a              RW              TripEnableC
+40076               0x004b              RW              TripEnableA
+40077               0x004C              RW              WarnEnableI
+40078               0x004D              RW              WarnEnableV
+40079               0x004E              RW              WarnEnableP
+40080               0x004F              RW              WarnEnableC
+40081               0x0050              RW              WarnEnableA
+40082               0x0051              RW              SetOperatingMode
+40083               0x0052              RW              InPt00Assignment
+40084               0x0053              RW              InPt01Assignment
+40085               0x0054              RW              InPt02Assignment
+40086               0x0055              RW              InPt03Assignment
+40087               0x0056              RW              InPt04Assignment
+40088               0x0057              RW              InPt05Assignment
+40089               0x0058              RW              OutPt00Assignment
+40090               0x0059              RW              OutPt01Assignment
+40091               0x005A              RW              OutPt02Assignment
+40092               0x005B              RW              StartsPerHour
+40093               0x005C              RW              StartsInterval
+40094               0x005D              RW              PMTotalStarts
+40095               0x005E              RW              PMOperatingHours
+40096               0x005F              RW              ActFLA2wOutput
+40097               0x0060              RW              SecurityPolicy
+40098               0x0061              RW              Language
+40099               0x0062              RW              FeedbackTimeout
+40100               0x0063              RW              TransitionDelay
+40101               0x0064              RW              InterlockDelay
+40102               0x0065              RW              ControlModuleTyp
+40103               0x0066              RW              SensingModuleTyp
+40104               0x0067              RW              CommsModuleType
+40105               0x0068              RW              OperStationType
+40106               0x0069              RW              DigitalMod1Type
+40107               0x006A              RW              DigitalMod2Type
+40108               0x006B              RW              DigitalMod3Type
+40109               0x006C              RW              DigitalMod4Type
+40110               0x006D              RW              AnalogMod1Type
+40111               0x006E              RW              AnalogMod2Type
+40112               0x006F              RW              AnalogMod3Type
+40113               0x0070              RW              AnalogMod4Type
+40114               0x0071              RW              MismatchAction
+40115               0x0072              RW              PLInhibitTime
+40116               0x0073              RW              PLTripDelay
+40117               0x0074              RW              GroundFaultType
+40118               0x0075              RW              GFInhibitTime
+40119               0x0076              RW              GFTripDelay
+40120               0x0077              RW              GFTripLevel
+40121               0x0078              RW              GFWarningDelay
+40122               0x0079              RW              GFWarningLevel
+40123               0x007A              RW              StallEnabledTime
+40124               0x007B              RW              StallTripLevel
+40125               0x007C              RW              JamInhibitTime
+40126               0x007D              RW              JamTripDelay
+40127               0x007E              RW              JamTripLevel
+40128               0x007F              RW              JamWarningLevel
+40129               0x0080              RW              ULInhibitTime
+40130               0x0081              RW              ULTripDelay
+40131               0x0082              RW              ULTripLevel
+40132               0x0083              RW              ULWarningLevel
+40133               0x0084              RW              CIInhibitTime
+40134               0x0085              RW              CITripDelay
+40135               0x0086              RW              CITripLevel
+40136               0x0087              RW              CIWarningLevel
+40137               0x0088              RW              CTPrimary
+40138               0x0089              RW              CTSecondary
+40139               0x008A              RW              UCInhibitTime
+40140               0x008B              RW              L1UCTripDelay
+40141               0x008C              RW              L1UCTripLevel
+40142               0x008D              RW              L1UCWarningLevel
+40143               0x008E              RW              L2UCTripDelay
+40144               0x008F              RW              L2UCTripLevel
+40145               0x0090              RW              L2UCWarningLevel
+40146               0x0091              RW              L3UCTripDelay
+40147               0x0092              RW              L3UCTripLevel
+40148               0x0093              RW              L3UCWarningLevel
+40149               0x0094              RW              OCInhibitTime
+40150               0x0095              RW              L1OCTripDelay
+40151               0x0096              RW              L1OCTripLevel
+40152               0x0097              RW              L1OCWarningLevel
+40153               0x0098              RW              L2OCTripDelay
+40154               0x0099              RW              L2OCTripLevel
+40155               0x009A              RW              L2OCWarningLevel
+40156               0x009B              RW              L3OCTripDelay
+40157               0x009C              RW              L3OCTripLevel
+40158               0x009D              RW              L3OCWarningLevel
+40159               0x009E              RW              LineLossInhTime
+40160               0x009F              RW              L1LossTripDelay
+40161               0x00A0              RW              L2LossTripDelay
+40162               0x00A1              RW              L3LossTripDelay
+40163               0x00A2              RW              OutputAssembly
+40164               0x00A3              RW              InputAssembly
+40165               0x00A4              RW              Datalink0
+40166               0x00A5              RW              Datalink1
+40167               0x00A6              RW              Datalink2
+40168               0x00A7              RW              Datalink3
+40169               0x00A8              RW              Datalink4
+40170               0x00A9              RW              Datalink5
+40171               0x00AA              RW              Datalink6
+40172               0x00AB              RW              Datalink7
+40173               0x00AC              RW              PtDevOutCOSMask
+40174               0x00AD              RW              VoltageMode
+40175               0x00AE              RW              PTPrimary
+40176               0x00AF              RW              PTSecondary
+40177               0x00B0              RW              UVInhibitTime
+40178               0x00B1              RW              UVTripDelay
+40179               0x00B2              RW              UVTripLevel
+40180               0x00B3              RW              UVWarningLevel
+40181               0x00B4              RW              OVInhibitTime
+40182               0x00B5              RW              OVTripDelay
+40183               0x00B6              RW              OVTripLevel
+40184               0x00B7              RW              OVWarningLevel
+40185               0x00B8              RW              PHRotInhibitTime
+40186               0x00B9              RW              PhaseRotTripType
+40187               0x00BA              RW              VIBInhibitTime
+40188               0x00BB              RW              VIBTripDelay
+40189               0x00BC              RW              VIBTripLevel
+40190               0x00BD              RW              VIBWarningLevel
+40191               0x00BE              RW              UFInhibitTime
+40192               0x00BF              RW              UFTripDelay
+40193               0x00C0              RW              UFTripLevel
+40194               0x00C1              RW              UFWarningLevel
+40195               0x00C2              RW              OFInhibitTime
+40196               0x00C3              RW              OFTripDelay
+40197               0x00C4              RW              OFTripLevel
+40198               0x00C5              RW              OFWarningLevel
+40199               0x00C6              RW              PowerScale
+40200               0x00C7              RW              UWInhibitTime
+40201               0x00C8              RW              UWTripDelay
+40202               0x00C9              RW              UWTripLevel
+40204               0x00CB              RW              UWWarningLevel
+40206               0x00CD              RW              OWInhibitTime
+40207               0x00CE              RW              OWTripDelay
+40208               0x00CF              RW              OWTripLevel
+40210               0x00D1              RW              OWWarningLevel
+40212               0x00D3              RW              UVARCInhibitTime
+40213               0x00D4              RW              UVARCTripDelay
+40214               0x00D5              RW              UVARCTripLevel
+40216               0x00D7              RW              UVARCWarnLevel
+40218               0x00D9              RW              OVARCInhibitTime
+40219               0x00DA              RW              OVARCTripDelay
+40220               0x00DB              RW              OVARCTripLevel
+40222               0x00DD              RW              OVARCWarnLevel
+40224               0x00DF              RW              UVARGInhibitTime
+40225               0x00E0              RW              UVARGTripDelay
+40226               0x00E1              RW              UVARGTripLevel
+40228               0x00E3              RW              UVARGWarnLevel
+40230               0x00E5              RW              OVARGInhibitTime
+40231               0x00E6              RW              OVARGTripDelay
+40232               0x00E7              RW              OVARGTripLevel
+40234               0x00E9              RW              OVARGWarnLevel
+40236               0x00EB              RW              UVAInhibitTime
+40237               0x00EC              RW              UVATripDelay
+40238               0x00ED              RW              UVA_TripLevel
+40240               0x00EF              RW              UVAWarningLevel
+40242               0x00F1              RW              OVAInhibitTime
+40243               0x00F2              RW              OVATripDelay
+40244               0x00F3              RW              OVATripLevel
+40246               0x00F5              RW              OVAWarningLevel
+40248               0x00F7              RW              UPFLagInhibTime
+40249               0x00F8              RW              UPFLagTripDelay
+40250               0x00F9              RW              UPFLagTripLevel
+40251               0x00FA              RW              UPFLagWarnLevel
+40252               0x00FB              RW              OPFLagInhibTime
+40253               0x00FC              RW              OPFLagTripDelay
+40254               0x00FD              RW              OPFLagTripLevel
+40255               0x00FE              RW              OPFLagWarnLevel
+40256               0x00FF              RW              UPFLeadInhibTime
+40257               0x0100              RW              UPFLeadTripDelay
+40258               0x0101              RW              UPFLeadTripLevel
+40259               0x0102              RW              UPFLeadWarnLevel
+40260               0x0103              RW              OPFLeadInhibTime
+40261               0x0104              RW              OPFLeadTripDelay
+40262               0x0105              RW              OPFLeadTripLevel
+40263               0x0106              RW              OpfLeadWarnLevel
+40264               0x0107              RW              DemandPeriod
+40265               0x0108              RW              NumberOfPeriods
+40266               0x0109              RW              Screen1Param1
+40267               0x010A              RW              Screen1Param2
+40268               0x010B              RW              Screen2Param1
+40269               0x010C              RW              Screen2Param2
+40270               0x010D              RW              Screen3Param1
+40271               0x010E              RW              Screen3Param2
+40272               0x010F              RW              Screen4Param1
+40273               0x0110              RW              Screen4Param2
+40274               0x0111              RW              DisplayTimeout
+40275               0x0112              RW              InAnMod1Ch00Type
+40276               0x0113              RW              InAMod1Ch0Format
+40277               0x0114              RW              InAMod1C0TmpUnit
+40278               0x0115              RW              InAMod1C0FiltFrq
+40279               0x0116              RW              InAMod1C0OpCktSt
+40280               0x0117              RW              InAMod1C0TripDly
+40281               0x0118              RW              InAMod1C0TripLvl
+40282               0x0119              RW              InAMod1C0WarnLvl
+40283               0x011A              RW              InAnMod1Ch01Type
+40284               0x011B              RW              InAMod1Ch1Format
+40285               0x011C              RW              InAMod1C1TmpUnit
+40286               0x011D              RW              InAMod1C1FiltFrq
+40287               0x011E              RW              InAMod1C1OpCktSt
+40288               0x011F              RW              InAMod1C1TripDly
+40289               0x0120              RW              InAMod1C1TripLvl
+40290               0x0121              RW              InAMod1C1WarnLvl
+40291               0x0122              RW              InAnMod1Ch02Type
+40292               0x0123              RW              InAMod1Ch2Format
+40293               0x0124              RW              InAMod1C2TmpUnit
+40294               0x0125              RW              InAMod1C2FiltFrq
+40295               0x0126              RW              InAMod1C2OpCktSt
+40296               0x0127              RW              InAMod1C2TripDly
+40297               0x0128              RW              InAMod1C2TripLvl
+40298               0x0129              RW              InAMod1C2WarnLvl
+40299               0x012A              RW              OutAnMod1Type
+40300               0x012B              RW              OutAnMod1Select
+40301               0x012C              RW              OutAnMod1EfltAct
+40302               0x012D              RW              OutAnMod1PfltAct
+40303               0x012E              RW              InAnMod2Ch00Type
+40304               0x012F              RW              InAMod2ChOFormat
+40305               0x0130              RW              InAMod2C0TmpUnit
+40306               0x0131              RW              InAMod2C0FiltFrq
+40307               0x0132              RW              InAMod2C0OpCktSt
+40308               0x0133              RW              InAMod2C0TripDly
+40309               0x0134              RW              InAMod2C0TripLvl
+40310               0x0135              RW              InAMod2C0WarnLvl
+40311               0x0136              RW              InAnMod2Ch01Type
+40312               0x0137              RW              InAMod2Ch1Format
+40313               0x0138              RW              InAMod2C1TmpUnit
+40314               0x0139              RW              InAMod2C1FiltFrq
+40315               0x013A              RW              InAMod2C1OpCktSt
+40316               0x013B              RW              InAMod2C1TripDly
+40317               0x013C              RW              InAMod2C1TripLvl
+40318               0x013D              RW              InAMod2C1WarnLvl
+40319               0x013E              RW              InAnMod2Ch02Type
+40320               0x013F              RW              InAMod2Ch2Format
+40321               0x0140              RW              InAMod2C2TmpUnit
+40322               0x0141              RW              InAMod2C2FiltFrq
+40323               0x0142              RW              InAMod2C2OpCktSt
+40324               0x0143              RW              InAMod2C2TripDly
+40325               0x0144              RW              InAMod2C2TripLvl
+40326               0x0145              RW              InAMod2C2WarnLvl
+40327               0x0146              RW              OutAnMod2Type
+40328               0x0147              RW              OutAnMod2Select
+40329               0x0148              RW              OutAnMod2EfltAct
+40330               0x0149              RW              OutAnMod2PfltAct
+40331               0x014A              RW              InAnMod3Ch00Type
+40332               0x014B              RW              InAMod3Ch0Format
+40333               0x014C              RW              InAMod3C0TmpUnit
+40334               0x014D              RW              InAMod3C0FiltFrq
+40335               0x014E              RW              InAMod3C0FiltFrq
+40336               0x014F              RW              InAMod3C0TripDly
+40337               0x0150              RW              InAMod3C0TripLvl
+40338               0x0151              RW              InAMod3C0WarnLvl
+40339               0x0152              RW              InAnMod3Ch01Type
+40340               0x0153              RW              InAMod3Ch1Format
+40341               0x0154              RW              InAMod3C1TmpUnit
+40342               0x0155              RW              InAMod3C1FiltFrq
+40343               0x0156              RW              InAMod3C1OpCktSt
+40344               0x0157              RW              InAMod3C1TripDly
+40345               0x0158              RW              InAMod3C1TripLvl
+40346               0x0159              RW              InAMod3C1WarnLvl
+40347               0x015A              RW              InAnMod3Ch02Type
+40348               0x015B              RW              InAMod3Ch2Format
+40349               0x015C              RW              InAMod3C2TmpUnit
+40350               0x015D              RW              InAMod3C2OpCktSt
+40351               0x015E              RW              InAMod3C2OpCktSt
+40352               0x015F              RW              InAMod3C2TripDly
+40353               0x0160              RW              InAMod3C2TripLvl
+40354               0x0161              RW              InAMod3C2WarnLvl
+40355               0x0162              RW              OutAnMod3Type
+40356               0x0163              RW              OutAnMod3Select
+40357               0x0164              RW              OutAnMod3EfltAct
+40358               0x0165              RW              OutAnMod3PfltAct
+40359               0x0166              RW              InAnMod4C100Type
+40360               0x0167              RW              InAMod4Ch0Format
+40361               0x0168              RW              InAMod4C0TmpUnit
+40362               0x0169              RW              InAMod4C0FiltFrq
+40363               0x016A              RW              InAMod4C0OpCktSt
+40364               0x016B              RW              InAMod4C0TripDly
+40365               0x016C              RW              InAMod4C0TripLvl
+40366               0x016D              RW              InAMod4C0WarnLvl
+40367               0x016E              RW              InAnMod4Ch01Type
+40368               0x016F              RW              InAMod4Ch1Format
+40369               0x0170              RW              InAMod4C1TmpUnit
+40370               0x0171              RW              InAMod4C1FiltFrq
+40371               0x0172              RW              InAMod4C1OpCktSt
+40372               0x0173              RW              InAMod4C1TripDly
+40373               0x0174              RW              InAMod4C1TripLvl
+40374               0x0175              RW              InAMod4C1WarnLvl
+40375               0x0176              RW              InAMod4C1WarnLvl
+40376               0x0177              RW              InAMod4Ch2Format
+40377               0x0178              RW              InAMod4C2TmpUnit
+40378               0x0179              RW              InAMod4C2FiltFrq
+40379               0x017A              RW              InAMod4C2OpCktSt
+40380               0x017B              RW              InAMod4C2TripDly
+40381               0x017C              RW              InAMod4C2TripLvl
+40382               0x017D              RW              InAMod4C2WarnLvl
+40383               0x017E              RW              OutAnMod4Type
+40384               0x017F              RW              OutAnMod4Select
+40385               0x0180              RW              OutAnMod4EfltAct
+40386               0x0181              RW              OutAnMod4PfltAct
+40387               0x0182              RW              FnlFltValStDur
+40388               0x0183              RW              OutPt00FnlFltVal
+40389               0x0184              RW              OutPt01FnlFltVal
+40390               0x0185              RW              OutPt02FnlFltVal
+40391               0x0186              RW              OutDig1FnlFltVal
+40392               0x0187              RW              OutDig2FnlFltVal
+40393               0x0188              RW              OutDig3FnlFltVal
+40394               0x0189              RW              OutDig4FnlFltVal
+40395               0x018A              RW              VoltageScale
+

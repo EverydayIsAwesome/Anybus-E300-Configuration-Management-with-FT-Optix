@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny" id="EdgeSVG_48Bj5" x="0px" y="0px" width="97.455px" height="97.453px" viewBox="0 0 97.455 97.453" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <radialGradient id="SVGID_8_" cx="48.7236" cy="48.7275" r="40.3213" gradientUnits="userSpaceOnUse">
+    <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.05"/>
+    <stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0.15"/>
+  </radialGradient>
+  <circle fill="url(#SVGID_8_)" cx="48.724" cy="48.729" r="40.323"/>
+  <linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="8.9121" y1="73.4893" x2="88.5215" y2="73.4893">
+    <stop offset="0" style="stop-color:#000000;stop-opacity:0.45"/>
+    <stop offset="1" style="stop-color:#000000;stop-opacity:0.45"/>
+  </linearGradient>
+  <path fill="url(#SVGID_9_)" d="M88.521,55.235c-0.303,21.722-17.998,36.569-39.792,36.569c-21.822,0-39.544-14.874-39.817-36.632&#xD;&#xA;&#x9;&#x9;c3.084,19.203,19.742,33.874,39.817,33.874C68.777,89.047,85.418,74.401,88.521,55.235z"/>
+</svg>

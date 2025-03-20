@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tohu\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\E300_Configuration_Management\\ProjectFiles\\NetSolution\\E300_Configuration_Management.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tohu\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\E300_Configuration_Management\\ProjectFiles\\NetSolution\\E300_Configuration_Management.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tohu\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\E300_Configuration_Management\\ProjectFiles\\NetSolution\\E300_Configuration_Management.csproj",
+        "projectName": "E300_Configuration_Management",
+        "projectPath": "C:\\Users\\tohu\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\E300_Configuration_Management\\ProjectFiles\\NetSolution\\E300_Configuration_Management.csproj",
+        "packagesPath": "C:\\Users\\tohu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tohu\\Documents\\Rockwell Automation\\FactoryTalk Optix\\Projects\\E300_Configuration_Management\\ProjectFiles\\NetSolution\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tohu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "false",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\Rockwell Automation\\FactoryTalk Optix\\Studio 1.5.6.0\\Tools\\DotNetSdk\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
